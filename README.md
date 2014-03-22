@@ -24,8 +24,20 @@ that may be misinterpreted as HTML.
 - Ampersand usage:  AT&amp;T,  D&amp;B, etc...
 - Malformed or partial HTML: &lt;/body&gt;&lt;/html&gt;
 
+**Please Note:**
+
+This in no way will check user provided HTML for safety.  You still need to
+sanitize your HTML.  
+I recommend [OWASP](https://www.owasp.org/index.php/Main_Page)
+to sanitize your HTML.
+
+<hr/>
+
+
 No dependencies required.  Just refactor the class into your project and
 you're done.
+
+
 
 --Dave
 
