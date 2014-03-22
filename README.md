@@ -14,15 +14,15 @@ I continue to refine the regular expression until I came up with a good meta
 expression that handled:
 
 - Start and End tag combinations in single or multi-line text values.
-- Text marked up with self-closing tags such as <br/> or <hr/>
-- Text marked up with HTML entity escape sequences like &lt; or &frac12;
+- Text marked up with self-closing tags such as &lt;br/&gt; or &lt;hr/&gt;
+- Text marked up with HTML entity escape sequences like &amp;lt; or &amp;frac12;
 
 I also wanted to make sure that it didn't match other common text phrases
 that may be misinterpreted as HTML.
 
-- Logic expressions such as:  "If A<B then B>A"
-- Ampersand usage:  AT&T,  D&B, etc...
-- Malformed or partial HTML: </body></html>
+- Logic expressions such as:  "If A&lt;B then B&gt;A"
+- Ampersand usage:  AT&amp;T,  D&amp;B, etc...
+- Malformed or partial HTML: &lt;/body&gt;&lt;/html&gt;
 
 No dependencies required.  Just refactor the class into your project and
 you're done.
