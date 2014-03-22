@@ -24,6 +24,13 @@ that may be misinterpreted as HTML.
 - Ampersand usage:  AT&amp;T,  D&amp;B, etc...
 - Malformed or partial HTML: &lt;/body&gt;&lt;/html&gt;
 
+# Sample Usage
+
+```java
+    String htmlContent="<a href=\"http://www.example.com/\">\nclick here\n</a>";
+    if (DetectHtml.isHtml(htmlContent))
+      System.out.println("htmlContent is HTML");
+
 **Please Note:**
 
 This in no way will check user provided HTML for safety.  You still need to
