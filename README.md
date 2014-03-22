@@ -30,11 +30,12 @@ that may be misinterpreted as HTML.
     String htmlContent="<a href=\"http://www.example.com/\">\nclick here\n</a>";
     if (DetectHtml.isHtml(htmlContent))
       System.out.println("htmlContent is HTML");
+```
 
 **Please Note:**
 
 This in no way will check user provided HTML for safety.  You still need to
-sanitize your HTML.  
+sanitize your HTML.
 I recommend [OWASP](https://www.owasp.org/index.php/Main_Page)
 to sanitize your HTML.
 
