@@ -16,7 +16,7 @@ public class DetectHtml
 	public final static String tagStart=
 		"\\<\\w+((\\s+\\w+(\\s*\\=\\s*(?:\".*?\"|'.*?'|[^'\"\\>\\s]+))?)+\\s*|\\s*)\\>";
 	public final static String tagEnd=
-		"\\</\\w+((\\s+\\w+(\\s*\\=\\s*(?:\".*?\"|'.*?'|[^'\"\\>\\s]+))?)+\\s*|\\s*)\\>";
+		"\\</\\w+\\>";
 	public final static String tagSelfClosing=
 		"\\<\\w+((\\s+\\w+(\\s*\\=\\s*(?:\".*?\"|'.*?'|[^'\"\\>\\s]+))?)+\\s*|\\s*)/\\>";
 	public final static String htmlEntity=
