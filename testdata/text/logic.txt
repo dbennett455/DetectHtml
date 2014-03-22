@@ -1,0 +1,1 @@
+If B<A then A>B & this is true

@@ -24,7 +24,7 @@ that may be misinterpreted as HTML.
 - Ampersand usage:  AT&T,  D&B, etc...
 - Malformed or partial HTML: </body></html>
 
-No dependencies required.  Just refactor the class into your project and
+No dependencies required.  Just repackage the class into your project and
 you're done.
 
 --Dave
