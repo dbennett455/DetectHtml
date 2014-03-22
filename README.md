@@ -6,11 +6,11 @@ or entities.
 
 I needed to detect self-contained HTML tags or entities in user supplied data
 to make formatting determinations.  After searching the Internet I found a
-few examples as regular expressions.  Most of the example failed by initial
-test cases and didn't handle conditions such as test without tags that
+few examples as regular expressions.  Most of the examples failed my initial
+test cases and didn't handle conditions such as text without tags that
 contained HTML entity escape codes.
 
-I continue to refine the regular expression until I came up with a good meta
+I continued to refine the regular expression until I came up with a good meta
 expression that handled:
 
 - Start and End tag combinations in single or multi-line text values.
